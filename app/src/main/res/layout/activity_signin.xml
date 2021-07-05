@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    tools:context=".SignUpActivity">
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/bg_1" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/back"
+        android:drawablePadding="250dp"
+        android:padding="20dp"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/v1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome back"
+        android:textColor="#BC1C2B"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:layout_marginLeft="25dp"
+        android:text="Continue to Sign In!"
+        android:textColor="#BC1C2B"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Name"
+        android:textColor="#A2A2A2"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv6"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_3"
+        android:hint="Enter the name"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#A2A2A2" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="#A2A2A2"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv7"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_3"
+        android:hint="Enter Password"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#A2A2A2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:text="Forgot Password?"
+        android:textColor="#BC1C2B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_4"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv11"
+        android:gravity="center"
+        android:text="Don’t have an Account ?"
+        android:textColor="#A2A2A2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#BC1C2B"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
